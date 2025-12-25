@@ -5,6 +5,7 @@ import PageNumber from "../Components/PageNumber"
 import FilterDropdown from "../Components/FilterDropdown "
 import SectionHead from "../Components/section.header";
 import Recomnded from "../Components/Recomnded";
+import { IoIosArrowDroprightCircle } from "react-icons/io"
 
 
 const Categories = () => {
@@ -172,9 +173,18 @@ const Categories = () => {
                     </div>
                 </div>
             
-            <div className="flex gap-[20px] text-[16px]">
-                <PageNumber/>
+            <div className="flex items-center gap-[20px] text-[16px]">
+                {[...Array(5)].map((_, i) => (
+                    <span className="flex cursor-pointer rounded-[50%] text-secondry hover:bg-white duration-400  mx-[10px] bg-gray-3 rounded-[4px] py-[4px] px-[10px] ">
+                        {i+1}
+                    </span>))}
+
+                     <span className="text-gray-3 text-[30px] hover:text-white">
+                        <IoIosArrowDroprightCircle />
+                    </span>
             </div>
+
+            
             
         </div>
         

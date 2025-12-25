@@ -124,9 +124,9 @@ const AnimeWatching = () => {
 
                 <div className="flex flex-wrap gap-[20px]">
                 {[...Array(12)].map((_, i) => (
-                    <a href="#" className="flex hover:bg-white hover:text-black duration-400  mx-[10px] bg-white/20 rounded-[4px] py-[15px] px-[25px] ">
+                    <span className="flex cursor-pointer hover:bg-white hover:text-black duration-400  mx-[10px] bg-white/20 rounded-[4px] py-[15px] px-[25px] ">
                         Ep {i+1}
-                    </a>))}
+                    </span>))}
                 </div>
             </div>
             
