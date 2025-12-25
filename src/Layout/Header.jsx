@@ -34,12 +34,6 @@ const Header = () => {
                     <EnhancedHeaderNavigation />
 
                 </div>
-                
-                {/* <div>
-                    <div className="min-[777px]:hidden">
-                        <EnhancedHeaderNavigation />
-                    </div>
-                </div> */}
 
                 <div className="flex gap-[10px] text-[20px] max-[750px]:text-[15px] max-[500px]:text-[10px] ">
 

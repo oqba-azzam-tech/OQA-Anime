@@ -1,11 +1,7 @@
 import { FaPaperPlane } from "react-icons/fa";
 import Comment from "../Components/Comment"
 import SectionHead from "../Components/section.header"
-import TopViews from "../Sectiones/TopViews";
-import Banner from "../Components/Banner";
 import Breadcrumb from "../Components/BreadCrumb";
-
-import EpisodeLoop from "../Components/EpoList";
 import Recomnded from "../Components/Recomnded";
 
 

@@ -8,11 +8,7 @@ const BlogPic = ({size="400" , basis , pic , name , date}) => {
             height: `${size}px` ,
             flexBasis: basis? `98%` : `49%` }}>
             {/* <img src={pic} alt="" className="object-cover w-full h-full" /> */}
-            <img 
-                    src={pic} 
-                    alt={name} 
-                    className="object-cover w-fit h-fit" 
-                />
+            <img src={pic} alt={name} className="object-cover w-fit h-fit" />
 
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40"></div>
 

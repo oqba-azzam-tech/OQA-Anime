@@ -112,24 +112,3 @@ const HeroSlider = ({ slides = [] }) => {
     </div>
   );
 };
-
-// بيانات المثال
-const slidesData = [
-  {
-    image: "https://images.unsplash.com/photo-1618331833071-1c0c6ee3d19e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80",
-    titleLine1: "Fate / Stay Night:",
-    titleLine2: "Unlimited Blade Works",
-    description: "After 30 days of travel across the world, a new journey begins in the realm of unlimited possibilities.",
-    bottomText: "UNLIMITED BLADE WORKS"
-  },
-  {
-    image: "https://images.unsplash.com/photo-1531315630201-bb15abeb1653?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80",
-    titleLine1: "Another Epic",
-    titleLine2: "Adventure Awaits",
-    description: "Embark on a journey through mystical lands and discover secrets hidden for centuries.",
-    bottomText: "EPIC ADVENTURE"
-  }
-];
-
-export default HeroSlider;
-export { slidesData };

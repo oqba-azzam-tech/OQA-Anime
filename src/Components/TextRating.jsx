@@ -30,5 +30,3 @@ export default function TextRating({ value = 3.5 }) {
   );
 }
 
-// الاستخدام:
-//<TextRating value={4} />
