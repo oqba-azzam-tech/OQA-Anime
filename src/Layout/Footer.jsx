@@ -25,7 +25,7 @@ const Footer = () => {
 
             <div className=" flex flex-col items-end  ">
                 <p className="text-gray-1 max-w-[250px] text-center">Copyright ©  {Year} All rights reserved | OQBA   by <br />
-                <a href="https://colorlib.com" className="text-primary">OQA</a>
+                <a href="https://oqa-portfolio-pyd3.onrender.com/" className="text-primary">OQA</a>
                 </p>
             </div>
 
