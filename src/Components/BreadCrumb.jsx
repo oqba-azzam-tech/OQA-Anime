@@ -4,7 +4,7 @@ import { IoHome } from "react-icons/io5";
 
 const Breadcrumb = ({ items }) => {
   return (
-    <nav className="breadcrumb__links flex flex-wrap items-center gap-2 py-4 px-6  rounded-xl">
+    <nav className="breadcrumb-links flex flex-wrap items-center gap-2 py-4 px-6  rounded-xl">
       <Link 
         to="/" 
         className="flex  items-center gap-1 text-gray-3 hover:text-primary transition-colors"

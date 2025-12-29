@@ -2,7 +2,7 @@ import { FaEye } from 'react-icons/fa';
 
 const TopCard = ({name , episode , views,pic}) => {
 
-    return <div className="relative h-[150px] w-[300px]">
+    return <div className="relative rounded-[5px] h-[150px] w-[300px] max-[600px]:max-w-[200px]">
             <div 
             className="absolute inset-0 bg-cover "
             style={{ backgroundImage: `url(${pic})` }}>

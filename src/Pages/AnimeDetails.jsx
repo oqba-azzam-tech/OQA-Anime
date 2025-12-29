@@ -1,5 +1,4 @@
 import Breadcrumb from "../Components/BreadCrumb";
-import ShowDetails from "../Components/ShowDetails";
 import TextRating from "../Components/TextRating";
 import { FaDownload } from "react-icons/fa";
 import { MdPlayCircleOutline } from "react-icons/md";

@@ -9,14 +9,14 @@ const FilterDropdown = () => {
     };
 
     return (
-        <div className="text-3xl flex gap-[15px]">
-                        <p>Order by : </p>
+        <div className="text-3xl flex max-[700px]:flex-wrap gap-[15px]">
+                        <p className="max-[500px]:text-[16px]">Order by : </p>
 
-            <select value={selected} onChange={handleChange} className="bg-white-1 text-black  text-center">
+            <select value={selected} onChange={handleChange} className="bg-secondry border text-white text-center max-[500px]:text-[16px]">
                 
-                <option value="alphabetical">A-Z</option>
-                <option value="range1_10">1-10</option>
-                <option value="episode12">12 Episode</option>
+                <option className="bg-secondry text-white " value="alphabetical">A-Z</option>
+                <option className="bg-secondry text-white " value="range1_10">1-10</option>
+                <option className="bg-secondry text-white " value="episode12">12 Episode</option>
             </select>
             
            

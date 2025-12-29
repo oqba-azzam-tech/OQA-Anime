@@ -1,8 +1,7 @@
-import { FaArrowAltCircleDown } from "react-icons/fa"
 import { Link } from "react-router-dom"
 
 
-const  PagesLinks = ({ tail=false , cat=false  , arrow = false}) => {
+const  PagesLinks = ({ cat=false  , arrow = false}) => {
 
     const headerLink =[
             {
@@ -55,7 +54,7 @@ const  PagesLinks = ({ tail=false , cat=false  , arrow = false}) => {
      {headerLink.map(
          (e , i) =>e?.categories.length==0 ? 
          <li key={i}
-          className={` text-gray-3 rounded-[5px]  p-6 duration-300 hover:text-white-1 " } `} > 
+          className={` text-gray-3 rounded-[5px]  p-6 duration-300 hover:text-white-1 " }`} > 
             <Link to={e.link} >{e.name}</Link>
          </li>
          

@@ -1,4 +1,4 @@
-import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
+import { FaArrowAltCircleRight } from "react-icons/fa";
 import AnimeCard from "../Components/AnimeCard";
 import SectionHead from "../Components/section.header";
 

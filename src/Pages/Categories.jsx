@@ -1,7 +1,6 @@
 import TopViews from "../Sectiones/TopViews"
 import Breadcrumb from "../Components/BreadCrumb"
 import AnimeSection from "../Sectiones/AnimeSection"
-import PageNumber from "../Components/PageNumber"
 import FilterDropdown from "../Components/FilterDropdown "
 import SectionHead from "../Components/section.header";
 import Recomnded from "../Components/Recomnded";
@@ -161,7 +160,7 @@ const Categories = () => {
                     <div >
                         <AnimeSection SecTitle={"Romance"} animeArray={RomanceAnime} viewIt={false}/>
                     </div>
-                    <div className="flex flex-col max-[991px]:flex-row max-[991px]:justify-between " >
+                    <div className="flex flex-col max-[991px]:flex-row max-[991px]:justify-between max-[741px]:flex-col" >
                         <TopViews/>
 
                         <div className="flex flex-col  gap-[20px] my-[40px] ">

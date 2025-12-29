@@ -55,7 +55,7 @@ const Swipere = ({ AnimeArray = [] }) => {
           slidesPerView={1}
           autoplay={true}
           loop={true}
-          // pagination={{ clickable: true }}
+          pagination={{ clickable: true }}
           onSwiper={(swiper) => {
             swiperRef.current = swiper;
           }}

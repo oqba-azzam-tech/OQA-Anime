@@ -20,12 +20,11 @@ const Footer = () => {
             </div>
 
             <div className="flex max-[570px]:grid max-[570px]:grid-cols-2 ">
-                <PagesLinks tail={true}/>
+                <PagesLinks/>
             </div>
 
             <div className=" flex flex-col items-end  ">
-                <p className="text-gray-1 max-w-[250px] text-center">Copyright ©  {Year} All rights reserved | OQBA   by <br />
-                <a href="https://oqa-portfolio-pyd3.onrender.com/" className="text-primary">OQA</a>
+                <p className="text-gray-1 max-w-[250px] text-center">Copyright ©  {Year} All rights reserved | <a href="https://oqa-portfolio-pyd3.onrender.com/" className="text-primary ml-[10px]">OQBA</a>
                 </p>
             </div>
 

@@ -3,7 +3,7 @@ import { FaFacebookF, FaLinkedin, FaXTwitter } from 'react-icons/fa6';
 import { FaPinterest } from "react-icons/fa";
 import { IoIosArrowDropleft } from "react-icons/io";
 import Comment from "../Components/Comment";
-import Breadcrumb from "../Components/BreadCrumb";
+
 
 
 
